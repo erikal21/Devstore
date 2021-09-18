@@ -92,7 +92,7 @@ export default function Index() {
     }
 
 async function remover(id) {
-    loading.curret.continuousStart();
+    loading.current.continuousStart();
     confirmAlert({
         title: 'Remover Aluno',
         message: `tem certeza que deseja remover o aluno ${id}?`,
